@@ -78,7 +78,7 @@ function welcome() {
   ingresedData(usuario1);
 
   // Llama a la función con el mensaje de bienvenida
-  welcomeMessage(usuario1.nombre);
+  welcomeMessage(usuario1);
 
 }
 
@@ -95,9 +95,7 @@ function ingresedData(usuario1) {
 // Brinda un mensaje de bienvenida el sitio
 function welcomeMessage(usuario1) {
   alert(
-    "Hola " +
-    usuario1.nombre +
-      '! Los pies de gato son un tipo de calzado especializado utilizado en la escalada en roca. Son zapatos ajustados y flexibles diseñados específicamente para proporcionar un mayor agarre y sensibilidad en la superficie de la roca. Es por esto que elegir el modelo correcto es tan importante. (Presiona "OK")'
+    'Hola ' + usuario1.nombre + '! Los pies de gato son un tipo de calzado especializado utilizado en la escalada en roca. Son zapatos ajustados y flexibles diseñados específicamente para proporcionar un mayor agarre y sensibilidad en la superficie de la roca. Es por esto que elegir el modelo correcto es tan importante. (Presiona "OK")'
   );
 }
 
